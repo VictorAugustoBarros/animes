@@ -1,6 +1,6 @@
 <div class="site-block-wrap">
     <div class="owl-carousel with-dots">
-        <div class="site-blocks-cover overlay overlay-2" style="background-image: url(/images/anime1.jpg);"
+        <div class="site-blocks-cover overlay overlay-2" style="background-image: url(/images/home/home_1.jpg);"
              data-aos="fade" id="home-section">
 
 
@@ -18,7 +18,7 @@
 
         </div>
 
-        <div class="site-blocks-cover overlay overlay-2" style="background-image: url(/images/anime2.jpg);"
+        <div class="site-blocks-cover overlay overlay-2" style="background-image: url(/images/home/home_2.jpg);"
              data-aos="fade" id="home-section">
 
 
