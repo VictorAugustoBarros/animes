@@ -1,0 +1,10 @@
+version: '2'
+services:
+    animes:
+        build: php
+        restart: always
+        container_name: animes
+        ports:
+            - 8092:80
+        volumes:
+            - ../:/var/www/html
