@@ -15,6 +15,8 @@
     <script src="/js/jquery.fancybox.min.js"></script>
     <script src="/js/jquery.sticky.js"></script>
 
+    <script src="/js/modules/functions.js"></script>
+
     <script src="/js/main.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:300,400,700" rel="stylesheet">
