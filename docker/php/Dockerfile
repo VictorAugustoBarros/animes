@@ -1,6 +1,6 @@
 FROM centos:6
 
-# Instala��o de dependencias
+# Instalação de dependencias
 RUN rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
 RUN yum -y install httpd && yum clean all
 

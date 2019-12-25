@@ -13,7 +13,7 @@ ADD apache-run.sh /apache-run.sh
 ADD localtime /etc/localtime
 RUN chmod -v +x /apache-run.sh
 
-# Ecoando todos os logs atrav�s de stdout
+# Ecoando todos os logs através de stdout
 RUN ln -sf /dev/stdout /var/log/httpd/modsec_audit.log
 RUN ln -sf /dev/stdout /var/log/httpd/modsec_debug.log
 RUN ln -sf /dev/stderr /var/log/httpd/ssl_error_log

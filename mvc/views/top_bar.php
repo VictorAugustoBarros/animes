@@ -3,7 +3,7 @@
         <div class="row align-items-center">
 
             <div class="col-6 col-xl-2">
-                <h1 class="mb-0 site-logo m-0 p-0"><a href="index.php" class="mb-0">Animes & Mang·s</a></h1>
+                <h1 class="mb-0 site-logo m-0 p-0"><a href="index.php" class="mb-0">Animes & Mang√°s</a></h1>
             </div>
 
             <div class="col-12 col-md-10 d-none d-xl-block">
@@ -14,7 +14,7 @@
                         <li><a href="#top3-section" class="nav-link">Top 3</a></li>
                         <li><a href="#about-section" class="nav-link">IDK</a></li>
                         <li><a href="#" class="nav-link">Animes</a></li>
-                        <li><a href="#" class="nav-link">Mang·s</a></li>
+                        <li><a href="#" class="nav-link">Mang√°s</a></li>
                     </ul>
                 </nav>
             </div>

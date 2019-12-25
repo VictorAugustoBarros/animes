@@ -1,4 +1,4 @@
-<section class="site-section" id="about-section">
+﻿<section class="site-section" id="about-section">
     <div class="container">
 
         <div class="row large-gutters">
@@ -13,7 +13,7 @@
             </div>
             <div class="col-lg-6 ml-auto">
 
-                <h2 class="section-title mb-3">Warehouse Real Estate Template</h2>
+                <h2 class="section-title mb-3">Recomendações</h2>
                 <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi
                     voluptas impedit Quo suscipit omnis iste velit maxime.</p>

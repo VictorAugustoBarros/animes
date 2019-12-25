@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-5">
                         <h2 class="footer-heading mb-4">Sobre</h2>
-                        <p>Esse È um site com o propÛsito de salvar todos os mang·s que possuo atualmente.</p>
+                        <p>Esse √© um site com o prop√≥sito de salvar todos os mang√°s que possuo atualmente.</p>
                     </div>
                 </div>
             </div>
