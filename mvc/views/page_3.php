@@ -2,31 +2,42 @@
     <div class="container">
 
         <div class="row large-gutters">
-            <div class="col-lg-6 mb-5">
-
-                <div class="owl-carousel slide-one-item with-dots">
-                    <div><img src="/images/animes/psycho_pass.jpg" alt="Image" class="img-fluid"></div>
-                    <div><img src="images/img_2.jpg" alt="Image" class="img-fluid"></div>
-                    <div><img src="images/img_3.jpg" alt="Image" class="img-fluid"></div>
-                </div>
-
-            </div>
-            <div class="col-lg-6 ml-auto">
+            <div class="col-lg-12 mb-5">
                 <h2 class="section-title mb-3">Recomendações</h2>
-                <p class="lead">Psycho-Pass</p>
-                <p>A história se passa em um futuro onde é possível medir e qualificar a personalidade e estado mental de uma pessoa instantaneamente.
-                    Essa informação é processada e gravada, e o termo “Psycho Pass” se refere ao padrão usado para medir o estado de espirito de um individuo.</p>
+                <div class="owl-carousel slide-one-item" style="height: 500px">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="/images/animes/psycho_pass.jpg" alt="Image" class="img-fluid" style="width: 540px;height: 540px">
+                        </div>
+                        <div class="col-sm-6">
+                            <h2 class="section-title mb-3">Psycho-Pass</h2><br>
+                            <p>A história se passa em um futuro onde é possível medir e qualificar a personalidade e estado mental de uma pessoa instantaneamente.
+                                Essa informação é processada e gravada, e o termo “Psycho Pass” se refere ao padrão usado para medir o estado de espirito de um individuo.</p>
+                        </div>
+                    </div>
 
-                <ul class="list-unstyled ul-check success">
-                    <li>Placeat maxime animi minus</li>
-                    <li>Dolore qui placeat maxime</li>
-                    <li>Consectetur adipisicing</li>
-                    <li>Lorem ipsum dolor</li>
-                    <li>Placeat molestias animi</li>
-                </ul>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="/images/animes/stone.jpg" alt="Image" class="img-fluid" style="width: 540px;height: 540px">
+                        </div>
+                        <div class="col-sm-6">
+                            <h2 class="section-title mb-3">Dr. Stone</h2><br>
+                            <p>Dr. Stone é um mangá de aventura, que conta a história de Senku, um gênio, que renasce 3.700 anos depois que uma luz
+                                misteriosa petrifica toda a humanidade. Usando-se de conhecimento científico, ele tenta restaurar a humanidade.</p>
+                        </div>
+                    </div>
 
-                <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
-
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="/images/animes/bakuman.jpg" alt="Image" class="img-fluid" style="width: 540px;height: 540px">
+                        </div>
+                        <div class="col-sm-6">
+                            <h2 class="section-title mb-3">Bakuman</h2><br>
+                            <p>Bakuman é a história de dois garotos do 9º ano que querem se tornar mangakás, ou criadores de mangás.
+                                Os personagens principais incluem Mashiro Moritaka, que é um desenhista, e Takagi Akito, que é um roteirista.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
