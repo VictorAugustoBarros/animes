@@ -12,4 +12,9 @@ class ModelMangas{
         $data = array('Gintama', '/images/animes/gintama.jpg');
         return $data;
     }
+
+    public function getDataManga($id){
+        $data = array('Gintama', '/images/animes/gintama.jpg');
+        return $data;
+    }
 }
