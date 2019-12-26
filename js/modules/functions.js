@@ -45,10 +45,10 @@ function getView(ref, div) {
 }
 
 function createCards(data, div, view) {
-    var html = '';
+    var html = '<div class="row">';
     for (var value in data) {
         html +=
-            '<div class="col-sm-4 animes_card">' +
+            '<div class="col-sm-3 animes_card">' +
             '    <div class="card">' +
             '        <a onclick="onSubmit(' + data[value]['id'] + ', ' + div + ', \'' + view + '\')"><img class="card-img-top img_animes_card" src="' + data[value]['img'] + '"></a>' +
             '    <div class="card-body">' +
@@ -59,6 +59,7 @@ function createCards(data, div, view) {
             '</div>'
     }
 
+    html += '</div>';
     return html;
 }
 
