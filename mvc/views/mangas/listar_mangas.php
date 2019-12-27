@@ -5,7 +5,7 @@
             <ul id="ul-example" class="row-fluid">
                 <li class="span4" data-color="gray">
                     <div class="">
-                        <div class="thumbnail-image">
+                        <div class="thumbnail-image" style="text-align: center">
                             <img id="beastars" onclick="onSubmit(0, 'mainCards', 'mangas')" src="/images/mangas/beastars.jpg" class="img_animes" alt=""/>
                         </div>
                     </div>
