@@ -19,12 +19,13 @@
     <script src="/js/jquery.dynatable.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
 
-    <link rel="stylesheet" media="all" href="/css/bootstrap-2.3.2.min.css"/>
+<!--    <link rel="stylesheet" media="all" href="/css/bootstrap-2.3.2.css"/>-->
+    <link rel="stylesheet" media="all" href="/css/bootstrap-4.4.1.css"/>
+
     <link rel="stylesheet" media="all" href="/css/dynatable-docs.css"/>
     <link rel="stylesheet" media="all" href="/css/jquery.dynatable.css"/>
 
     <link rel="stylesheet" href="/fonts/icomoon/style.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/jquery-ui.css">
     <link rel="stylesheet" href="/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
