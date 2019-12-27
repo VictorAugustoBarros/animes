@@ -10,19 +10,19 @@ class Database
     public function __construct()
     {
 //        $this->con = mysqli_connect('10.151.27.147', 'victor.barros', 'Vic@0809.PG', 'esms', 3306);
-        try {
-            $con = new MongoClient("mongodb://localhost:27017/Testes");
-            $db = $con->selectDB('Testes');
-
-            $col = $db->selectCollection('mangas');
-            $col->find();
-
-            var_dump($col);
-
-            $con->close();
-        } catch (Exception $e) {
-//            var_dump($e);
-        }
+//        try {
+//            $con = new MongoClient("mongodb://localhost:27017/Testes");
+//            $db = $con->selectDB('Testes');
+//
+//            $col = $db->selectCollection('mangas');
+//            $col->find();
+//
+//            var_dump($col);
+//
+//            $con->close();
+//        } catch (Exception $e) {
+////            var_dump($e);
+//        }
 
     }
 
