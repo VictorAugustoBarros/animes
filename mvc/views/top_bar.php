@@ -22,7 +22,6 @@
                         <li><a href="/index.php#top" class="nav-link">Home</a></li>
                         <li><a href="/index.php#top3" class="nav-link">Top 3</a></li>
                         <li><a href="/index.php#recomendations" class="nav-link">Recomendações</a></li>
-                        <li><a href="/animes.php" class="nav-link">Animes</a></li>
                         <li><a href="/mangás.php" class="nav-link">Mangás</a></li>
                     </ul>
                 </nav>
