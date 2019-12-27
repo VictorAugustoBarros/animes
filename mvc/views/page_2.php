@@ -1,6 +1,5 @@
 <section class="site-section" id="top3">
     <div class="container">
-        <legend style="text-align: center;" class="section-title mb-3">Top 3</legend>
         <br>
         <div class="row large-gutters">
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 ">
@@ -45,3 +44,8 @@
     </div>
 </section>
 
+<style>
+    #top3{
+        background-image: url("/images/teste.jpg");
+    }
+</style>
