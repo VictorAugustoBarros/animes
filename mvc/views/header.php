@@ -19,7 +19,7 @@
     <script src="/js/jquery.dynatable.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
 
-<!--    <link rel="stylesheet" media="all" href="/css/bootstrap-2.3.2.min.css"/>-->
+    <link rel="stylesheet" media="all" href="/css/bootstrap-2.3.2.min.css"/>
     <link rel="stylesheet" media="all" href="/css/dynatable-docs.css"/>
     <link rel="stylesheet" media="all" href="/css/jquery.dynatable.css"/>
 
