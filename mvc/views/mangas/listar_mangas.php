@@ -1,89 +1,40 @@
 ﻿<section class="site-section" id="about-section">
-    <div class="container">
+    <div id="mainCards" class="container">
         <br>
         <div class="dynatable-demo">
             <ul id="ul-example" class="row-fluid">
                 <li class="span4" data-color="gray">
-                    <div class="thumbnail">
+                    <div class="">
                         <div class="thumbnail-image">
-                            <img src="https://s3.amazonaws.com/dynatable-docs-assets/images/dinosaurs/Stegosaurus_BW.jpg"/>
-                        </div>
-                        <div class="caption">
-                            <h3>Stegosaurus armatus</h3>
-                            <p>State: Colorado</p>
-                            <p>Year: 1982</p>
-                            <p><a target="_blank" href="http://en.wikipedia.org/wiki/Stegosaurus"
-                                  class="btn btn-primary">View</a> <a href="#" class="btn">Action</a></p>
+                            <img onclick="onSubmit(0, 'mainCards', 'mangas')" src="/images/mangas/beastars.jpg" class="img_animes" alt=""/>
                         </div>
                     </div>
                 </li>
                 <li class="span4" data-color="color">
                     <div class="thumbnail">
                         <div class="thumbnail-image">
-                            <img src="https://s3.amazonaws.com/dynatable-docs-assets/images/dinosaurs/300px-Astrodon1DB.jpg"/>
-                        </div>
-                        <div class="caption">
-                            <h3>Astrodon johnstoni</h3>
-                            <p>State: Maryland</p>
-                            <p>Year: 1998</p>
-                            <p><a target="_blank" href="http://en.wikipedia.org/wiki/Astrodon_johnstoni"
-                                  class="btn btn-primary">View</a> <a href="#" class="btn">Action</a></p>
+                            <img src="/images/mangas/psycho_pass.jpg" class="img_animes" alt=""/>
                         </div>
                     </div>
                 </li>
                 <li class="span4" data-color="gray">
                     <div class="thumbnail">
                         <div class="thumbnail-image">
-                            <img src="https://s3.amazonaws.com/dynatable-docs-assets/images/dinosaurs/300px-Hypsibema_missouriensis_Bollinger_County_Museum_of_Natural_History.jpg"/>
-                        </div>
-                        <div class="caption">
-                            <h3>Hypsibema missouriensis</h3>
-                            <p>State: Missouri</p>
-                            <p>Year: 2004</p>
-                            <p><a target="_blank" href="http://en.wikipedia.org/wiki/Hypsibema_missouriensis"
-                                  class="btn btn-primary">View</a> <a href="#" class="btn">Action</a></p>
+                            <img src="/images/mangas/magi.png" class="img_animes" alt=""/>
                         </div>
                     </div>
                 </li>
                 <li class="span4" data-color="color">
                     <div class="thumbnail">
                         <div class="thumbnail-image">
-                            <img src="https://s3.amazonaws.com/dynatable-docs-assets/images/dinosaurs/Knight_hadrosaurs.jpg"/>
-                        </div>
-                        <div class="caption">
-                            <h3>Hadrosaurus foulkii</h3>
-                            <p>State: New Jersey</p>
-                            <p>Year: 1991</p>
-                            <p><a target="_blank" href="http://en.wikipedia.org/wiki/Hadrosaurus"
-                                  class="btn btn-primary">View</a> <a href="#" class="btn">Action</a></p>
+                            <img src="/images/mangas/shingeki_no_kyojin.jpg" class="img_animes" alt=""/>
                         </div>
                     </div>
                 </li>
                 <li class="span4" data-color="gray">
                     <div class="thumbnail">
                         <div class="thumbnail-image">
-                            <img src="https://s3.amazonaws.com/dynatable-docs-assets/images/dinosaurs/300px-Sauroposeidon_dinosaur.svg.png"/>
-                        </div>
-                        <div class="caption">
-                            <h3>Paluxysaurus jonesi</h3>
-                            <p>State: Texas</p>
-                            <p>Year: 2009</p>
-                            <p><a target="_blank" href="http://en.wikipedia.org/wiki/Paluxysaurus"
-                                  class="btn btn-primary">View</a> <a href="#" class="btn">Action</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="span4" data-color="color">
-                    <div class="thumbnail">
-                        <div class="thumbnail-image">
-                            <img src="https://s3.amazonaws.com/dynatable-docs-assets/images/dinosaurs/300px-Triceratops_BW.jpg"/>
-                        </div>
-                        <div class="caption">
-                            <h3>Triceratops</h3>
-                            <p>State: Wyoming</p>
-                            <p>Year: 1994</p>
-                            <p><a target="_blank" href="http://en.wikipedia.org/wiki/Triceratops"
-                                  class="btn btn-primary">View</a> <a href="#" class="btn">Action</a></p>
+                            <img src="/images/mangas/vinland.jpg" class="img_animes" alt=""/>
                         </div>
                     </div>
                 </li>
@@ -93,17 +44,13 @@
 </section>
 
 <script>
-    $(document).ready(function () {
-//        loadCards('mangas', 'mainCards');
-    });
-
     // Function that renders the list items from our records
     function ulWriter(rowIndex, record, columns, cellWriter) {
         var cssClass = "span4", li;
         if (rowIndex % 3 === 0) {
             cssClass += ' first';
         }
-        li = '<li class="' + cssClass + '"><div class="thumbnail"><div class="thumbnail-image">' + record.thumbnail + '</div><div class="caption">' + record.caption + '</div></div></li>';
+        li = '<li class="' + cssClass + '"><div style="height:490px;width: 340px"><div class="thumbnail-image">' + record.thumbnail + '</div><div class="caption"></div></div></li>';
         return li;
     }
 
@@ -123,8 +70,8 @@
             bodyRowSelector: 'li'
         },
         dataset: {
-            perPageDefault: 3,
-            perPageOptions: [3, 6]
+            perPageDefault: 6,
+            perPageOptions: [3, 6, 12]
         },
         writers: {
             _rowWriter: ulWriter
@@ -133,7 +80,7 @@
             _rowReader: ulReader
         },
         params: {
-            records: 'kittens'
+            records: 'mangás'
         }
     });
 </script>

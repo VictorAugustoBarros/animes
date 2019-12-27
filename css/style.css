@@ -2634,7 +2634,7 @@ h1, h2, h3, h4, h5,
 
 .img_animes_card{
     width: 100%;
-    height: 490px;
+    height: 325px;
 }
 
 h1 {
@@ -2643,10 +2643,6 @@ h1 {
 
 h1:first-letter {
     text-transform: uppercase;
-}
-
-.img_animes_card {
-    height: 300px;
 }
 
 .nao_tenho {

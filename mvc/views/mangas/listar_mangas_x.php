@@ -12,38 +12,28 @@ $manga = $model_mangas->getDataManga($_REQUEST['id']);
 </div>
 <h1><?= $manga['nome'] ?></h1>
 <div class="row">
-    <div class="col-sm-3 animes_card" style="padding-right: 30px">
-        <div class="card">
-            <img class="card-img-top img_animes_card" src="<?= $manga['img'] ?>">
-            <div class="card-body">
-                <p><strong><?= $manga['sinopse'] ?></strong></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-9">
-        <div row">
-            <center>
-                <h3><strong><?= count($manga['volumes_comprados']) ?> / <?= $manga['volumes_total'] ?></strong></h3>
-            </center>
+    <div class="col-sm-12 animes_card">
+        <div style="text-align: center">
+            <h3><strong><?= count($manga['volumes_comprados']) ?> / <?= $manga['volumes_total'] ?></strong></h3>
         </div>
         <div class="row">
             <div class="col-sm-3 mangas_card">
-                <img class="card-img-top img_animes_card" src="/images/mangas/beastars_volumes/beastars_1.jpg">
+                <img class="card-img-top img_animes_card" src="/images/mangas/beastars_volumes/beastars_1.jpg" alt="">
             </div>
             <div class="col-sm-3 mangas_card">
-                <img class="card-img-top img_animes_card" src="/images/mangas/beastars_volumes/beastars_2.jpg">
+                <img class="card-img-top img_animes_card" src="/images/mangas/beastars_volumes/beastars_2.jpg" alt="">
             </div>
             <div class="col-sm-3 mangas_card">
                 <img class="card-img-top img_animes_card"
-                     src="/images/mangas/beastars_volumes/beastars_3.jpg">
+                     src="/images/mangas/beastars_volumes/beastars_3.jpg" alt="">
             </div>
             <div class="col-sm-3 mangas_card">
                 <img class="card-img-top img_animes_card nao_tenho"
-                     src="/images/mangas/beastars_volumes/beastars_4.jpg">
+                     src="/images/mangas/beastars_volumes/beastars_4.jpg" alt="">
             </div>
             <div class="col-sm-3 mangas_card">
                 <img class="card-img-top img_animes_card nao_tenho"
-                     src="/images/mangas/beastars_volumes/beastars_5.jpg">
+                     src="/images/mangas/beastars_volumes/beastars_5.jpg" alt="">
             </div>
         </div>
     </div>

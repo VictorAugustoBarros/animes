@@ -64,6 +64,9 @@ function createCards(data, div, view) {
 }
 
 function onSubmit(id, div, view) {
+    console.log(id);
+    console.log(div);
+    console.log(view);
     jQuery.ajax({
         url: '/mvc/views/' + view + '/listar_' + view + '_x.php',
         type: "POST",
@@ -71,7 +74,7 @@ function onSubmit(id, div, view) {
             id: id
         },
         success: function (html) {
-            $("#" + div.id).html(html);
+            $("#" + div).html(html);
         }
     });
 }
