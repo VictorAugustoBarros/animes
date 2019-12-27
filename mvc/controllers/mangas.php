@@ -10,4 +10,9 @@ class Mangas{
 
         return $dados;
     }
+
+    public function insertNewManga($params){
+        var_dump($params);
+        exit();
+    }
 }

@@ -24,10 +24,29 @@
                     img: "/images/mangas/magi.png",
                     sinopse: "Aladdin , após ficar preso no mesmo lugar durante toda a sua vida, sai em uma jornada ao lado de Ugo, um Djinn que habita dentro da flauta que ele carrega consigo, em busca de outros gênios."
                 }
-            }
+            };
 
             var html = createCards(data, div, view);
             $("#" + div).html(html);
+        }
+    });
+}
+
+function btnAdicionar(view, modal, idReferencia='') {
+    modal = $("#mainModal");
+    modal.modal('show');
+
+    $.ajax({
+        url: '/mvc/views/' + view + '/modal_' + view + '.php',
+        type: 'GET',
+        data: {
+            'view': view,
+            'idReferencia': idReferencia
+        },
+        success: function (html) {
+            console.log(html);
+            console.log(modal.find('.modal-body').html());
+            modal.find('.modal-body').html(html);
         }
     });
 }

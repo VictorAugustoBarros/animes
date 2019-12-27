@@ -6,35 +6,35 @@
                 <li class="span4" data-color="gray">
                     <div class="">
                         <div class="thumbnail-image">
-                            <img onclick="onSubmit(0, 'mainCards', 'mangas')" src="/images/mangas/beastars.jpg" class="img_animes" alt=""/>
+                            <img id="beastars" onclick="onSubmit(0, 'mainCards', 'mangas')" src="/images/mangas/beastars.jpg" class="img_animes" alt=""/>
                         </div>
                     </div>
                 </li>
                 <li class="span4" data-color="color">
                     <div class="thumbnail">
                         <div class="thumbnail-image">
-                            <img src="/images/mangas/psycho_pass.jpg" class="img_animes" alt=""/>
+                            <img id="psycho pass" src="/images/mangas/psycho_pass.jpg" class="img_animes" alt=""/>
                         </div>
                     </div>
                 </li>
                 <li class="span4" data-color="gray">
                     <div class="thumbnail">
                         <div class="thumbnail-image">
-                            <img src="/images/mangas/magi.png" class="img_animes" alt=""/>
+                            <img id="magi" src="/images/mangas/magi.png" class="img_animes" alt=""/>
                         </div>
                     </div>
                 </li>
                 <li class="span4" data-color="color">
                     <div class="thumbnail">
                         <div class="thumbnail-image">
-                            <img src="/images/mangas/shingeki_no_kyojin.jpg" class="img_animes" alt=""/>
+                            <img id="shingeki no kyojin" src="/images/mangas/shingeki_no_kyojin.jpg" class="img_animes" alt=""/>
                         </div>
                     </div>
                 </li>
                 <li class="span4" data-color="gray">
                     <div class="thumbnail">
                         <div class="thumbnail-image">
-                            <img src="/images/mangas/vinland.jpg" class="img_animes" alt=""/>
+                            <img id="vinland" src="/images/mangas/vinland.jpg" class="img_animes" alt=""/>
                         </div>
                     </div>
                 </li>

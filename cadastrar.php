@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 header('Content-Type: text/html; charset=utf-8');
 ?>
 <!DOCTYPE html>
@@ -21,6 +21,6 @@ header('Content-Type: text/html; charset=utf-8');
 
 <script>
     $(document).ready(function () {
-        getView('listar_mangas', 'mainContent');
+        getView('form_mangas', 'mainContent');
     });
 </script>

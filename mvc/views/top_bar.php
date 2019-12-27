@@ -23,6 +23,7 @@
                         <li><a href="/index.php#top3" class="nav-link">Top 3</a></li>
                         <li><a href="/index.php#recomendations" class="nav-link">Recomendações</a></li>
                         <li><a href="/mangás.php" class="nav-link">Mangás</a></li>
+                        <li><a href="/cadastrar.php" class="nav-link">Cadastrar</a></li>
                     </ul>
                 </nav>
             </div>
