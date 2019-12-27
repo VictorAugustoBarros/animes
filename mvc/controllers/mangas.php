@@ -2,17 +2,21 @@
 
 include($_SERVER['DOCUMENT_ROOT'] . "/mvc/models/mangas.php");
 
-class Mangas{
+class Mangas
+{
 
-    public function listCards(){
+    public function listCards()
+    {
         $model_mangas = new ModelMangas();
         $dados = $model_mangas->getCards();
 
         return $dados;
     }
 
-    public function insertNewManga($params){
-        var_dump($params);
+    public function insertNewManga($params)
+    {
+        $model_mangas = new ModelMangas();
+        $model_mangas->insertNew($params);
         exit();
     }
 }

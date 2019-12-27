@@ -1,45 +1,43 @@
-﻿<section class="site-section" style="padding-top: 200px">
-    <div class="row">
-        <div class="col-sm-4 animes_card">
+﻿<div class="row">
+    <div class="col-sm-1 animes_card">
 
-        </div>
-
-        <div class="col-sm-4 animes_card">
-            <form onsubmit="submitForm()" method="post">
-                <div class="form-group">
-                    <label for="nome">Nome</label>
-                    <input type="text" class="form-control" id="nome">
-                </div>
-                <div class="form-group">
-                    <label for="sinopse">Sinopse</label>
-                    <textarea class="form-control" id="sinopse" rows="6"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="totalVolumes">Total Volumes</label>
-                    <input type="number" class="form-control" id="totalVolumes">
-                </div>
-                <div class="form-group">
-                    <label for="volumes" style="padding-right: 10px">Volumes</label>
-                    <i id="volumesTooltip" class="fas fa-info-circle" title="range ( - ), separador ( , )"></i>
-                    <input type="text" class="form-control" id="volumes">
-                </div>
-                <br>
-                <button type="submit" class="btn btn-primary">Cadastrar</button>
-            </form>
-        </div>
-
-        <div class="col-sm-4 animes_card">
-
-        </div>
     </div>
-</section>
+
+    <div class="col-sm-10 animes_card" style="text-align: center">
+        <form onsubmit="submitForm()" method="post">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome">
+            </div>
+            <div class="form-group">
+                <label for="sinopse">Sinopse</label>
+                <textarea class="form-control" id="sinopse" rows="6"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="totalVolumes">Total Volumes</label>
+                <input type="number" class="form-control" id="totalVolumes">
+            </div>
+            <div class="form-group">
+                <label for="volumes" style="padding-right: 10px">Volumes</label>
+                <i id="volumesTooltip" class="fas fa-info-circle" title="range ( - ), separador ( , )"></i>
+                <input type="text" class="form-control" id="volumes">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+
+    <div class="col-sm-1 animes_card">
+
+    </div>
+</div>
 
 <script>
     $(function () {
         $("#volumesTooltip").tooltip();
     });
 
-    function submitForm(form){
+    function submitForm(form) {
         var nome = $("#nome").val();
         var sinopse = $("#sinopse").val();
         var totalVolumes = $("#totalVolumes").val();
@@ -59,9 +57,10 @@
                 params: params
             },
             success: function (data) {
-                if (data){
-                    alert("Mangás adicionados com sucesso!");
-                }
+                alert(data);
+//                if (data) {
+//                    alert("Mangás adicionados com sucesso!");
+//                }
             }
         });
     }

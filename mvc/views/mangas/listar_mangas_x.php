@@ -7,10 +7,16 @@ $manga = $model_mangas->getDataManga($_REQUEST['id']);
 
 ?>
 
-<div class="text-center" style="float: right;">
-    <a href="/mangás.php">&larr; Voltar</a>
+<div class="row">
+    <div class="col-sm-6 animes_card">
+        <h1><?= $manga['nome'] ?></h1>
+    </div>
+    <div class="col-sm-6 animes_card">
+        <div class="text-center" style="float: right;">
+            <a href="/mangas.php">&larr; Voltar</a>
+        </div>
+    </div>
 </div>
-<h1><?= $manga['nome'] ?></h1>
 <div class="row">
     <div class="col-sm-12 animes_card">
         <div style="text-align: center">

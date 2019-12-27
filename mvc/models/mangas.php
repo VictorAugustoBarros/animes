@@ -4,9 +4,11 @@ include($_SERVER['DOCUMENT_ROOT'] . "/mvc/controllers/database.php");
 
 class ModelMangas
 {
+    var $db;
+
     public function __construct()
     {
-
+        $this->db = new Database();
     }
 
     public function getCards()
@@ -27,4 +29,11 @@ class ModelMangas
         );
         return $manga;
     }
+
+    public function insertNew($_params)
+    {
+        $this->db->insertNew($_params);
+        return true;
+    }
+
 }

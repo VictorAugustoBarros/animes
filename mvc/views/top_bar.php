@@ -12,7 +12,7 @@
         <div class="row align-items-center">
 
             <div class="col-6 col-xl-2">
-                <h1 class="mb-0 site-logo m-0 p-0"><a href="index.php" class="mb-0">Animes & Mangás</a></h1>
+                <h1 class="mb-0 site-logo m-0 p-0"><a href="index.php" class="mb-0"><img src="/images/logo.png" style="height: 90px;width: 140px;" /></a></h1>
             </div>
 
             <div class="col-12 col-md-10 d-none d-xl-block">
@@ -22,8 +22,7 @@
                         <li><a href="/index.php#top" class="nav-link">Home</a></li>
                         <li><a href="/index.php#top3" class="nav-link">Top 3</a></li>
                         <li><a href="/index.php#recomendations" class="nav-link">Recomendações</a></li>
-                        <li><a href="/mangás.php" class="nav-link">Mangás</a></li>
-                        <li><a href="/cadastrar.php" class="nav-link">Cadastrar</a></li>
+                        <li><a href="/mangas.php" class="nav-link">Mangás</a></li>
                     </ul>
                 </nav>
             </div>

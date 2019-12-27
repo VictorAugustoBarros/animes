@@ -1,12 +1,15 @@
 ﻿<section class="site-section" id="about-section">
     <div id="mainCards" class="container">
         <br>
+        <div style="text-align: center">
+            <button type="button" class="btn btn-info" onclick="btnAdicionar('mangas', 'mainModal')">Novo Mangá</button>
+        </div>
         <div class="dynatable-demo">
             <ul id="ul-example" class="row-fluid">
                 <li class="span4" data-color="gray">
                     <div class="">
                         <div class="thumbnail-image" style="text-align: center">
-                            <img id="beastars" onclick="onSubmit(0, 'mainCards', 'mangas')" src="/images/mangas/beastars.jpg" class="img_animes" alt=""/>
+                            <img id="beastars" onclick="loadManga(0, 'mainCards', 'mangas')" src="/images/mangas/beastars.jpg" class="img_animes" alt=""/>
                         </div>
                     </div>
                 </li>
