@@ -1,17 +1,16 @@
-﻿<section class="site-section" id="recomendations">
+<section class="site-block-wrap" id="recomendations">
     <div class="container">
-
+        <br><br><br><br><br><br>
         <div class="row large-gutters">
             <div class="col-lg-12 mb-5">
-                <legend style="text-align: center;" class="section-title mb-3">Recomendações</legend>
-                <br>
+                <br><br><br>
                 <div class="owl-carousel slide-one-item" style="height: 500px">
                     <div class="row">
                         <div class="col-sm-6">
                             <img src="/images/animes/psycho_pass.jpg" alt="Image" class="img-fluid"
                                  style="width: 540px;height: 540px">
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" style="color:black">
                             <legend><strong>Psycho-Pass</strong></legend>
                             <br>
                             <p>A história se passa em um futuro onde é possível medir e qualificar a personalidade e
@@ -20,13 +19,12 @@
                                 usado para medir o estado de espirito de um individuo.</p>
                         </div>
                     </div>
-
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" >
                             <img src="/images/animes/stone.jpg" alt="Image" class="img-fluid"
                                  style="width: 540px;height: 540px">
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" style="color:black">
                             <legend><strong>Dr. Stone</strong></legend>
                             <br>
                             <p>Dr. Stone é um mangá de aventura, que conta a história de Senku, um gênio, que renasce
@@ -35,13 +33,12 @@
                                 restaurar a humanidade.</p>
                         </div>
                     </div>
-
                     <div class="row">
                         <div class="col-sm-6">
                             <img src="/images/animes/bakuman.jpg" alt="Image" class="img-fluid"
                                  style="width: 540px;height: 540px">
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" style="color:black">
                             <legend><strong>Bakuman</strong></legend>
                             <br>
                             <p>Bakuman é a história de dois garotos do 9º ano que querem se tornar mangakás, ou
@@ -53,5 +50,12 @@
                 </div>
             </div>
         </div>
+        <br><br>
     </div>
 </section>
+<style>
+    #recomendations {
+        background-image: url("/images/gintama.jpg");
+        padding-right: 500px;
+    }
+</style>

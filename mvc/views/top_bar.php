@@ -12,7 +12,7 @@
         <div class="row align-items-center">
 
             <div class="col-6 col-xl-2">
-                <h1 class="mb-0 site-logo m-0 p-0"><a href="index.php" class="mb-0"><img src="/images/logo.png" style="height: 90px;width: 140px;" /></a></h1>
+                <h1 class="mb-0 site-logo m-0 p-0"><a href="/index.php" class="mb-0"><img src="/images/logo.png" style="height: 90px;width: 140px;"  alt=""/></a></h1>
             </div>
 
             <div class="col-12 col-md-10 d-none d-xl-block">
