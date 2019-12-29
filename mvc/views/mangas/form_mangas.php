@@ -3,7 +3,7 @@
 
     </div>
 
-    <div class="col-sm-10 animes_card" style="text-align: center">
+    <div class="col-sm-10 animes_card" style="text-align: center;color: #0041ff">
         <form onsubmit="submitForm()" method="post">
             <div class="form-group">
                 <label for="nome">Nome</label>

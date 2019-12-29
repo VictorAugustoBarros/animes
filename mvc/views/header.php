@@ -1,5 +1,5 @@
 <header>
-    <title>Animes & Mangás</title>
+    <title>Mangás</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -15,6 +15,7 @@
     <script src="/js/jquery.sticky.js"></script>
     <script src="/js/modules/functions.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/counter.js"></script>
 
     <script src="/js/jquery.dynatable.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>

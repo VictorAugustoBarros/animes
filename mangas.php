@@ -5,7 +5,7 @@ header('Content-Type: text/html; charset=utf-8');
 <html lang="en">
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/mvc/views/header.php"); ?>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body id="mainMangas" data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 <div class="site-wrap">
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/mvc/views/top_bar.php"); ?>
 
@@ -13,18 +13,10 @@ header('Content-Type: text/html; charset=utf-8');
 
     </div>
 
-    <div id="mainModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div id="mainModal" class="modal fade bs-example-modal-lg"  tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" style="width: 450px;">
-            <div class="modal-content">
-                <div>
-                    <div class="modal-header container d-block p-2">
-                        <div class="row d-block">
-                            <div class="col-sm-12" style="text-align: center;color: #5bb75b;">
-                                <h1><b id="">Mangás</b></h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-content teste">
+
                 <div class="modal-body">
 
                 </div>
@@ -43,3 +35,21 @@ header('Content-Type: text/html; charset=utf-8');
         getView('listar_mangas', 'mainContent');
     });
 </script>
+
+<style>
+    #mainMangas{
+        background-image: url("/images/background_mangas.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+        background-position: center center;
+    }
+
+    .teste{
+        background-image: url("/images/modal_background.jpg");
+        background-size: cover;
+        background-position-x: -60px;
+        filter: brightness(0.7);
+    }
+</style>

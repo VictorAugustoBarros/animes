@@ -12,6 +12,8 @@ header('Content-Type: text/html; charset=utf-8');
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/mvc/views/page_1.php"); ?>
 
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/mvc/views/qnt_mangas.php"); ?>
+
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/mvc/views/page_2.php"); ?>
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/mvc/views/page_3.php"); ?>

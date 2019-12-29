@@ -1,6 +1,6 @@
 ﻿<?php
 
-//include($_SERVER['DOCUMENT_ROOT'] . "/mvc/controllers/database.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/mvc/controllers/database.php");
 
 class ModelMangas
 {
@@ -8,12 +8,12 @@ class ModelMangas
 
     public function __construct()
     {
-//        $this->db = new Database();
+        $this->db = new Database();
     }
 
     public function getCards()
     {
-        $data = array('Gintama', '/images/animes/gintama.jpg');
+        $data = array('Gintama', '/images/animes/background_recomendacao.jpg');
         return $data;
     }
 

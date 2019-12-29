@@ -7,13 +7,13 @@ $manga = $model_mangas->getDataManga($_REQUEST['id']);
 
 ?>
 
-<div class="row">
+<div class="row" style="padding-top: 20px">
     <div class="col-sm-6 animes_card">
-        <h1><?= $manga['nome'] ?></h1>
+        <h1 style="color: black"><?= $manga['nome'] ?></h1>
     </div>
     <div class="col-sm-6 animes_card">
         <div class="text-center" style="float: right;">
-            <a href="/mangas.php">&larr; Voltar</a>
+            <a href="/mangas.php">Voltar</a>
         </div>
     </div>
 </div>
