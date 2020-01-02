@@ -2,7 +2,7 @@
     <div id="mainCards" class="container">
         <br>
         <div style="text-align: center">
-            <button type="button" class="btn btn-info" onclick="btnAdicionar('mangas', 'mainModal')">Cadastrar</button>
+            <button type="button" class="btn btn-info" onclick="btnAdicionar('mangas')">Cadastrar</button>
         </div>
         <div class="dynatable-demo">
             <ul id="ul-example" class="row-fluid">

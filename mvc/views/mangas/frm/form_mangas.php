@@ -4,7 +4,7 @@
     </div>
 
     <div class="col-sm-10 animes_card" style="text-align: center;color: green">
-        <form id="form_mangas" data-url="mangas/insertNewManga" method="post">
+        <form id="form_mangas" data-url="mangas/insertNewManga" method="post" data-loader="offer">
             <div class="form-group">
                 <label for="nome">Nome</label>
                 <input type="text" class="form-control" id="nome">

@@ -13,7 +13,7 @@ header('Content-Type: text/html; charset=utf-8');
 
     </div>
 
-    <div id="mainModal" class="modal fade bs-example-modal-lg"  tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div id="myModalEditar" class="modal fade bs-example-modal-lg"  tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" style="width: 450px;">
             <div class="modal-content teste">
 
