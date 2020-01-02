@@ -15,6 +15,8 @@ class Mangas
 
     public function insertNewManga($params)
     {
+        var_dump($params);
+        exit();
         $model_mangas = new ModelMangas();
         $model_mangas->insertNew($params);
         exit();

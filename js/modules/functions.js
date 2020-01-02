@@ -37,7 +37,7 @@ function btnAdicionar(view, modal, idReferencia='') {
     modal.modal('show');
 
     $.ajax({
-        url: '/mvc/views/' + view + '/form_' + view + '.php',
+        url: '/mvc/views/' + view + '/frm/form_' + view + '.php',
         type: 'GET',
         data: {
             'view': view,

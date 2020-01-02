@@ -42,14 +42,9 @@ header('Content-Type: text/html; charset=utf-8');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-
-        background-position: center center;
     }
 
     .teste{
-        background-image: url("/images/modal_background.jpg");
-        background-size: cover;
-        background-position-x: -60px;
-        filter: brightness(0.7);
+        background-color: black;
     }
 </style>
