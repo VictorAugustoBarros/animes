@@ -9,7 +9,11 @@ class Database
 
     public function __construct()
     {
-        $this->con = mysqli_connect('10.151.27.147', 'victor.barros', 'Vic@0809.PG', 'esms', 3306);
+        $this->con = mysqli_connect('localhost', 'victor', 'apaik7dw', 'mangas', 3306);
+        if (mysqli_connect_errno()) {
+            printf("Connect failed: %s\n", mysqli_connect_error());
+            exit();
+        }
     }
 
     public function __destruct()
@@ -17,20 +21,13 @@ class Database
         $this->con = 0;
     }
 
-    public function selectAll()
-    {
-        $rows = $this->db->mangas->find();
-        return $rows;
-    }
-
-    public function insertNew($data)
-    {
-        $this->db->mangas->insert($data);
-        return true;
-    }
-
     public function execute_query($sql)
     {
         return mysqli_query($this->con, $sql);
+    }
+
+    public function last_id()
+    {
+        return mysqli_insert_id();
     }
 }

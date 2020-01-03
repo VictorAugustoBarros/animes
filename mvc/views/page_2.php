@@ -5,7 +5,7 @@
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 ">
                 <div class="ftco-media-1">
                     <div class="ftco-media-1-inner" >
-                        <a href="" class="d-inline-block mb-4"><img
+                        <a class="d-inline-block mb-4"><img
                                 src="/images/mangas/shingeki_no_kyojin.jpg" alt="Image"
                                 class="img-fluid img_animes"></a>
                         <div class="ftco-media-details">
@@ -18,7 +18,7 @@
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 ">
                 <div class="ftco-media-1">
                     <div class="ftco-media-1-inner">
-                        <a href="" class="d-inline-block mb-4"><img
+                        <a class="d-inline-block mb-4"><img
                                 src="/images/mangas/beastars.jpg" alt="Image" class="img-fluid img_animes"></a>
                         <div class="ftco-media-details">
                             <h3 style="color: white">Beastars</h3>
@@ -30,7 +30,7 @@
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 ">
                 <div class="ftco-media-1">
                     <div class="ftco-media-1-inner">
-                        <a href="" class="d-inline-block mb-4"><img src="/images/mangas/vinland.jpg"
+                        <a class="d-inline-block mb-4"><img src="/images/mangas/vinland.jpg"
                                                                     alt="Image"
                                                                     class="img-fluid img_animes"></a>
                         <div class="ftco-media-details">

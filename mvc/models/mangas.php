@@ -11,10 +11,14 @@ class ModelMangas
         $this->db = new Database();
     }
 
-    public function getCards()
+    public function __get($prop)
     {
-        $data = array('Gintama', '/images/animes/background_recomendacao.jpg');
-        return $data;
+        return $this->$prop;
+    }
+
+    public function __set($prop, $valor)
+    {
+        return $this->$prop = $valor;
     }
 
     public function getDataManga($id)
@@ -30,9 +34,24 @@ class ModelMangas
         return $manga;
     }
 
-    public function insertNew($_params)
+    public function insertNew()
     {
-        $this->db->insertNew($_params);
+        $sql = "INSERT INTO mangas (nome, sinopse, total_volumes) VALUES ('$this->nome', '$this->sinopse', $this->totalVolumes)";
+        $this->db->execute_query($sql);
+        $this->__set("id_manga", $this->db->last_id());
+        return true;
+    }
+
+    public function insertVolumes()
+    {
+        $volumesArr = split(",", $this->volumes);
+        foreach ($volumesArr as $value) {
+            $img_path = $this->nome."_".trim($value);
+            $sql = "INSERT INTO volumes(id_manga, num_volume, img_path) VALUES (this->id_manga, $value, '$img_path')";
+            var_dump($sql);
+//            $this->db->execute_query($sql);
+        }
+
         return true;
     }
 

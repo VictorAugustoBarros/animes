@@ -7,7 +7,7 @@
             url: "routes/"+_frm.data('url'),
             data: _frm.serialize(),
             success: function (data) {
-                alert(data);
+                console.log(data);
             },
             error: function (xhr, ajaxOptions, thrownError) {
                 alert(thrownError);
