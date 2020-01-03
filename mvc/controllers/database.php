@@ -9,11 +9,12 @@ class Database
 
     public function __construct()
     {
-        $this->con = mysqli_connect('localhost', 'victor', 'apaik7dw', 'mangas', 3306);
-        if (mysqli_connect_errno()) {
-            printf("Connect failed: %s\n", mysqli_connect_error());
-            exit();
+        $link = mysql_connect('localhost:/var/run/mysqld/mysqld.sock', 'root', 'apaik7dw');
+        if (!$link) {
+            die('Could not connect: ' . mysql_error());
         }
+        mysql_select_db ("mangas");
+        echo 'Connected successfully';
     }
 
     public function __destruct()
