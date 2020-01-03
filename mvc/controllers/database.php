@@ -26,6 +26,8 @@ class Database
         return mysqli_query($this->con, $sql);
     }
 
+    asdkasçdlas
+
     public function last_id()
     {
         return mysqli_insert_id();
